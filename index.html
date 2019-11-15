@@ -6,17 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>FCC-Product landing page</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">    
     <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
     <div id="wrapper">
     <!--Hero section-->
-    <section id="main" class="hero-section" style="background-image: url(https://live.staticflickr.com/4838/44841467115_b74bf06ac5_h.jpg)" no-repit center>
+    <section id="main" class="hero-section" style="background-image: url(https://live.staticflickr.com/4838/44841467115_b74bf06ac5_h.jpg)">
         <div class="bg-overlay"></div>
         <header id="header">           
             <div class="logo">
-                <a href=""><img id="header-img" src="https://live.staticflickr.com/1363/4720855286_015353c0f0_m.jpg"></a>       
+                <a href="#main"><img id="header-img" src="https://live.staticflickr.com/1363/4720855286_015353c0f0_m.jpg" alt="logo"></a>       
             </div>
                 <nav id="nav-bar">
                     <ul>
@@ -24,36 +25,138 @@
                         <li><a class="nav-link" href="#about">About</a></li>
                         <li><a class="nav-link" href="#features">Features</a></li>
                         <li><a class="nav-link" href="#product">Product</a></li>
-                        <li><a class="nav-link" href="#form">Form</a></li>
+                        <li><a class="nav-link" href="#form-action">Form</a></li>
                     </ul>
                 </nav>            
         </header>
         <div class="hero-text">
-            <h1 class="text-center">Welcome to Carpathians</h1>
-            <p>Mountain adventure for travelers.</p>
+            <h1 class="text-center">Welcome to Carpathians</h1>         
         </div>
+         <div class="lead">
+               <a class="btn-lead" href="#product">View tour</a>
+               <a class="btn-lead" href="form-action">Booking tour</a>
+            </div>
     </section>
     <!--About-->
     <section id="about">
         <h2 class="text-center">About tour</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime illo earum quae velit explicabo aut provident sapiente nemo quibusdam sint.</p>
+        <div class="content">
+            <article class="post">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto reprehenderit ad repudiandae quia incidunt laudantium consequatur molestiae, commodi repellendus culpa consectetur, corporis totam? Fugiat a at, consectetur soluta eos aliquam aut, doloribus cum enim maxime ducimus minus. Voluptate explicabo quia blanditiis obcaecati repellat suscipit labore dolor officiis, fugiat facilis repudiandae eaque laudantium, rem porro accusantium ipsam voluptatum sapiente. Aperiam accusamus sit qui hic praesentium rerum voluptate, quibusdam, necessitatibus iure, libero fugiat tempora ipsam facilis aliquam non numquam officiis ab eum atque velit repellendus. Nostrum, cumque, quos. Vero et suscipit eum inventore, sit omnis praesentium fugiat perspiciatis quas architecto numquam ipsa? </article>
+            <iframe id="video" src="https://www.youtube.com/embed/wsrr27HEq4E" allowfullscreen></iframe>
+        </div>    
     </section>
     <!--Features-->
+    <section id="features" style="background-image: url( https://live.staticflickr.com/6026/5974409288_002b8f7bb6_h.jpg)">
+        <div class="bg-overlay"></div>
+            <h2 class="text-center-light">Our features</h2>
+        <div class="feature-list">
+            <div class="feature-item">
+                <i class="fas fa-tree"></i>
+                <h3 class="title-center">Fresh air</h3>
+                <p class="description">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-paw"></i>
+                <h3 class="title-center">Wild nature</h3>
+                <p class="description">Iusto reprehenderit ad repudiandae quia incidunt laudantium consequatur molestiae.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-map-marked-alt"></i>
+                <h3 class="title-center">Exciting routes</h3>
+                <p class="description">Fugiat a at, consectetur soluta eos aliquam aut, doloribus cum enim maxime ducimus minus.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-mug-hot"></i>
+                <h3 class="title-center">Quality service</h3>
+                <p class="description">libero fugiat tempora ipsam facilis aliquam non numquam officiis ab eum atque velit repellendus.</p>
+            </div>
+        </div>
+
+    </section>
     <!--Product-->
+    <section id="product">
+        <h2 class="text-center">Our tours</h2>
+        <div class="tour-tables">
+            <div class="single-table">
+                <div class="table-heading">
+                    <h3 class="title-center">Tour 1</h3>
+                </div>
+                <div class="tour-price">
+                    <h5>$ 100</h5>
+                    <p>/per tour</p>
+                </div>
+                <div class="table-description">
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto reprehenderit ad repudiandae quia incidunt laudantium consequatur molestiae, commodi repellendus culpa consectetur, corporis totam? Fugiat a at, consectetur soluta eos aliquam aut, doloribus cum enim maxime ducimus minus.</p>                    
+                </div>
+            </div>
+            <div class="single-table">
+                <div class="table-heading">
+                    <h3 class="title-center">Tour 2</h3>
+                </div>
+                <div class="tour-price">
+                    <h5>$ 200</h5>
+                    <p>/per tour</p>
+                </div>
+                 <div class="table-description">
+                    <p class="description">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.Voluptate explicabo quia blanditiis obcaecati repellat suscipit labore dolor officiis, fugiat facilis repudiandae eaque laudantium, rem porro accusantium ipsam voluptatum sapiente.</p>                  
+                </div>
+            </div>            
+            <div class="single-table">
+                <div class="table-heading">
+                    <h3 class="title-center">Tour 3</h3>
+                </div>
+                <div class="tour-price">
+                    <h5>$ 300</h5>
+                    <p>/per tour</p>
+                </div>
+                 <div class="table-description">
+                    <p class="description">Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.Voluptate explicabo quia blanditiis obcaecati repellat suscipit labore dolor officiis, fugiat facilis repudiandae eaque laudantium, rem porro accusantium ipsam voluptatum sapiente.</p>                  
+                </div>
+            </div>          
+            <div class="single-table">
+                <div class="table-heading">
+                    <h3 class="title-center">Tour 4</h3>
+                </div>
+                <div class="tour-price">
+                    <h5>$ 400</h5>
+                    <p>/per tour</p>
+                </div>
+                <div class="table-description">
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto reprehenderit ad repudiandae quia incidunt laudantium consequatur molestiae, commodi repellendus culpa consectetur, corporis totam? Fugiat a at, consectetur soluta eos aliquam aut, doloribus cum enim maxime ducimus minus.</p>                    
+                </div>
+            </div>            
+        </div>        
+    </section>
     <!--Form-->
+    <section id="form-action" style="background-image: url(https://live.staticflickr.com/4108/5038677841_a207e3ba23_h.jpg">
+        <div class="bg-overlay"></div>
+        <h2 class="text-center-light">Choice your tour</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input id="name" type="text" placeholder="Name">    
+            <input name="email" id="email" type="email" placeholder="Enter your email address" required="" target="_blank">
+            <select id="dropdown" name="tour-list" class="dropdown">
+                <option disabled="" selected="" value="">Choice tour</option>
+                <option value="tour-1">Tour 1</option>
+                <option value="tour-2">Tour 2</option>
+                <option value="tour-3">Tour 3</option>
+                <option value="tour-3">Tour 4</option>
+            </select>
+            <input id="submit" type="submit" value="Submit" class="btn" target="_blank">
+        </form>       
+    </section>
     </div>
     <!--Footer-->
     <footer class="footer">
         <div class="footer-wrapper">
             <div class="logo">
-                    <a href=""><img id="header-img" src="https://live.staticflickr.com/1363/4720855286_015353c0f0_m.jpg"></a>
+                    <a href=""><img id="header-img" src="https://live.staticflickr.com/1363/4720855286_015353c0f0_m.jpg" alt="logo"></a>
             </div>
             <ul class="footer-info">
                 <li><a href="#">Privacy</a></li>
                 <li><a href="#">Terms</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
-            <span class="copyright">Copyright 2019, </span>
+            <span class="copyright">Copyright 2019</span>
         </div>
     </footer>
 </body>
